@@ -53,7 +53,7 @@ public class DiaryModel {
 				bufferedWriter.write(content);
 				bufferedWriter.newLine();
 			}else {
-				bufferedWriter.write("------------------"+date+"------------------\n");
+				bufferedWriter.write("\n------------------"+date+"------------------\n");
 				bufferedWriter.write(content);
 				bufferedWriter.newLine();
 			}
